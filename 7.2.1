@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+struct Trojkat{
+float a;
+float b;
+float c;
+};
+
+float Funkcja(struct Trojkat x)
+{
+    return x.a+x.b+x.c;
+}
+
+void Funkcja2(struct Trojkat troj1, struct Trojkat *troj2)
+{
+    (*troj2).a=troj1.a;
+    (*troj2).b=troj1.b;
+    (*troj2).c=troj1.c;
+}
+
+int main()
+{
+    struct Trojkat troj3;
+    struct Trojkat *troj2;
+    struct Trojkat troj1;
+    troj1.a=1;
+    troj1.b=2;
+    troj1.c=3;
+    printf("\n%f\n", (*troj2).a);
+
+    return 0;
+}
