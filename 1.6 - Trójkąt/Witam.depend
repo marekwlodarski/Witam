@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1520369156 source:c:\users\tinese\desktop\witam\main.cpp
+	<iostream>
+	"Triangle.h"
+
+1520363361 c:\users\tinese\desktop\witam\point.hpp
+	"Triangle.hpp"
+
+1520368078 source:c:\users\tinese\desktop\witam\point.cpp
+	"Point.h"
+
+1520362858 c:\users\tinese\desktop\witam\triangle.hpp
+	"Point.hpp"
+
+1520368046 c:\users\tinese\desktop\witam\point.h
+
+1520368927 c:\users\tinese\desktop\witam\triangle.h
+	"Point.h"
+
+1520368927 source:c:\users\tinese\desktop\witam\triangle.cpp
+	<cmath>
+	"Triangle.h"
+
+1520366724 c:\users\tinese\desktop\witam\point.cpp
+	"Point.h"
+
